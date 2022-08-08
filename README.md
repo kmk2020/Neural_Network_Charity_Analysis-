@@ -21,6 +21,9 @@ From Alphabet Soup’s business team, Beks received a CSV containing more than 3
 #### Data Preprocessing
 For this analysis and model, the target is held in IS_SUCCESSFUL field.
 
+![image](https://user-images.githubusercontent.com/89704371/183323261-bd3ef6a8-1419-41f9-ac7a-ea4c2367dad9.png)
+
+
 The following variable(s) should be considered on features model
 * ORGANIZATION
 * STATUS
@@ -36,6 +39,9 @@ The following variable(s) should be removed from input and data.
 * NAME
 * EIN
 
+![image](https://user-images.githubusercontent.com/89704371/183323141-56dc04fa-576f-4d75-b4f1-45819fe06124.png)
+
+
 ## Compiling, Training, and Evaluating the Model
 Model Configuration:
 
@@ -46,6 +52,9 @@ Model Configuration:
 * Increasing the number of hidden nodes in layer 1 (3 X number of input features)
 * Increasing the number of hidden layers to include a 3rd
 * Changing the activation functions: tried linear, tanh, sigmoid for a combination of hidden layers and output layer
+
+![image](https://user-images.githubusercontent.com/89704371/183323472-49459f3f-d01b-4487-bab4-57884b8d5c31.png)
+
 
 ## SUMMARY
 Our Analysis and Deep Learning Model Results include a recommendation for how a different model could solve this classification and results.
